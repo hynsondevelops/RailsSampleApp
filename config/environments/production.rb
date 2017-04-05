@@ -88,7 +88,7 @@ Rails.application.configure do
   #Email for heroku
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
-  host = 'limitless-lake-16630.herokuapp.com'
+  host = 'morning-basin-43778.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
